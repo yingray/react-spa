@@ -1,0 +1,105 @@
+/*-----------------------------
+ * Variables
+ -----------------------------*/
+$base-font_color: $color-gray
+$base-font_weight: $font-weight-regular
+$base-font_family: $font-family-roboto
+/*-----------------------------
+ * Typography Settings
+ -----------------------------*/
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: $base-font_family
+  color: $base-font_color
+  background-color: $color-upperLightGray
+
+h1, h2, h3, h4, h5, h6
+  text-align: left
+  font-weight: $font-weight-regular
+  margin-top: 10px
+  margin-bottom: 10px
+
+label
+  display: block
+
+input
+  width: 100%
+  height: 40px
+  outline: none
+  border: solid 1px $base-font_color
+  border-radius: 2px
+  margin-bottom: 10px
+  color: $base-font_color
+  padding: 10px
+  &:focus
+    outline: none
+  &:-webkit-autofill
+    -webkit-box-shadow: 0 0 0 1000px white inset
+  &[type="checkbox"]
+    width: 10px
+    height: 10px
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder
+  color: $base-font_color
+
+button
+  background-color: white
+  width: 130px
+  height: 40px
+  color: $base-font_color
+  outline: none
+  border: solid 1px $base-font_color
+  border-radius: 4px
+  cursor: pointer
+  transition: all 1s ease 0s
+  &:hover
+    background-color: #eee
+  &:disabled
+    cursor: auto
+    background-color: $color-extraLightGray
+
+strong
+  display: block
+  margin-bottom: 10px
+  color: $color-strawberry
+  font-weight: $font-weight-regular
+
+main
+  position: relative
+  padding: 20px
+  width: 100%
+  max-width: 768px
+  margin: 0 auto
+  height: 80vh
+  background-color: $color-white
+
+nav
+  & > ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    overflow: hidden
+    border: 1px solid #e7e7e7
+    background-color: #f3f3f3
+    & > li
+      float: left
+      & > a
+        display: block
+        color: #666
+        text-align: center
+        padding: 14px 16px
+        text-decoration: none
+        &:hover:not(.active)
+          background-color: #ddd
+        &.active
+          color: white
+          background-color: #4CAF50
+
+article
+  margin-top: 20px
+  padding: 20px
+  border: solid 1px $color-lightGray

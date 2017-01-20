@@ -1,0 +1,46 @@
+/*-----------------------------
+ * Config: Font Setting
+ -----------------------------*/
+$font-family-exo2: 'Exo 2', sans-serif;
+$font-family-roboto: 'Roboto', sans-serif;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semiBold: 600;
+$font-weight-bold: 700;
+/*-----------------------------
+ * Config: Color Setting
+ -----------------------------*/
+$color-azure: rgb(0, 158, 229);
+$color-tintAzure: rgb(92, 204, 255);
+$color-windowsBlue: rgb(77, 175, 208);
+$color-banana: rgb(229, 186, 0);
+$color-strawberry: rgb(242, 64, 67);
+$color-red: rgb(242, 48, 51);
+$color-spring: rgb(67, 216, 134);
+$color-green: rgb(30, 162, 20);
+$color-darkGreen: rgb(29, 38, 42);
+$color-coolGray: rgb(29, 38, 42);
+$color-darkGray: rgb(74, 74, 74);
+$color-gray: rgb(92, 92, 92);
+$color-lightGray: rgb(186, 186, 186);
+$color-extraLightGray: rgb(217, 217, 217);
+$color-superLightGray: rgb(235, 235, 235);
+$color-upperLightGray: rgb(246, 246, 246);
+$color-bcgLightGray: rgb(252, 252, 252);
+$color-white: rgb(255, 255, 255);
+$color-black: rgba(0, 0, 0, 1);
+$color-overlay: rgba(0, 0, 0, 0.75);
+$color-semi_transparent: rgba(0, 0, 0, 0.35);
+$color-full_transparent: rgba(0, 0, 0, 0);
+$color-gradient: -68deg, #3CA3DD, #69C3BC, #3CA3DD;
+/*-----------------------------
+ * Config: Responsive Web Design
+ -----------------------------*/
+$breakpoints: (
+        'medium': (min-width: 800px),
+        'large': (min-width: 1000px),
+        'huge': (min-width: 1200px),
+);
+/*-----------------------------
+ * Config: Base
+ -----------------------------*/
